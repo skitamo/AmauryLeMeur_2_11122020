@@ -1,0 +1,410 @@
+* Eléments principaux de la page */
+#bloc_page
+{
+	max-width: 1400px;
+	margin: auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+p
+{
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+header
+{
+	display: flex;
+	width: 95%;
+	justify-content: space-between;
+}
+
+/* Menu */
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 55px;
+}
+
+#nav a
+{
+	font-size: 12px;
+	color: #000000;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+#nav a:hover
+{
+	color: #5095fd;
+	border-top: 3px solid #0065fc;
+}
+
+span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscrire" dans le menu */
+{
+	font-weight: bold;
+	color: #0065fc;
+}
+
+#nav_mobile
+{
+	display: none;
+}
+
+/* Première section */
+#titre_principal h1
+{
+	font-size: 16px;
+}
+
+#content_recherche
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#icone_position_map
+{
+	background-color: #f2f2f2;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.fa-map-marker-alt
+{
+	padding: 10px 10px 10px 10px; /* La propriété padding est ici utilisée pour centrer l'icône map dans la zone grise */
+}
+
+#ville /* Personnalisation de l'input text */
+{
+	height: 36px;
+	font-weight: bold;
+	padding-left: 10px;
+	width: 140px;
+	border-top: 1px;
+	border-color: #f2f2f2;
+	border-top-style: solid;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+#envoyer /* Personnalisation de l'input submit */
+{
+	background-color: #0065fc;
+	color: #ffffff;
+	border-style: none;
+	border-radius: 0px 7px 7px 0px;
+	height: 36px;
+}
+
+#content_filtre
+{
+	display: flex;
+	flex-direction: row;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#filtres /* Positionnement du mot filtre */
+{
+	margin-right: 20px;
+}
+
+.content_filtre /* Classe pour tous les blocks de filtres */
+{
+	display: flex;
+	border-radius: 20px 20px 20px 20px;
+	border-color: #d9d9d9;
+	border-style: solid;
+	border-left-style: none;
+	margin-right: 10px;
+
+}
+
+.content_filtre:hover
+{
+	background-color: red;
+	cursor: pointer;
+	color: yellow;
+}
+
+.positioning1 /* Encart des icônes étant plus larges que hautes */
+{
+	padding: 15px 12px 15px 12px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #deebff;
+}
+
+.positioning2 /* Encart des îcones ayant une largeur et une hauteur égale */
+{
+	padding: 15px 15px 15px 15px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #deebff;
+}
+
+.filtres /* Classe positionnant les titres des filtres */
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 40px;
+	align-self: center;
+}
+
+#info
+{
+	display: flex;
+	margin-top: 20px;
+}
+
+.fa-info /* Cerclage de l'icône info */
+{
+	padding: 8px 10px 8px 10px;
+	border-radius: 25px 25px 25px 25px;
+	border: 1px solid #d9d9d9;
+}
+
+#disponibilite /* Positionnement du texte à côté de l'icône */
+{
+	margin-left: 20px;
+}
+
+/* Section Hébergement et Les plus polaires */
+#second
+{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+#hebergement /* Taille et positionnement de la partie hébergement */
+{
+	width: 60%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#titre_hebergement /* Positionnement du titre afin que les encarts soient passées en-dessous */
+{
+	width: 100%;
+	margin-bottom: 5px;
+	margin-left: 30px;
+}
+
+a:link, a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+	cursor: pointer;
+	color: #0065fc;
+}
+
+.hebergement1 /* Classe des encarts d'hôtels */
+{
+	width: 25%;
+	height: 205px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	border-width: 5px;
+	border-color: #ffffff;
+	margin: 0px 30px 30px 30px;
+	box-shadow: 1px 1px 8px black;
+}
+
+.hebergement1 img /* Positionnement des images dans les encarts */
+{
+	width: 95%;
+	max-height: 110px;
+	object-fit: cover;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin: 5px 5px 0px 5px;
+}
+
+.hebergement1 h3, .hebergement1 p
+{
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.hebergement1 p
+{
+	font-size: 12px;
+}
+
+em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en gras */
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+.blue /* Classe des étoiles bleues */
+{
+	color: #0065fc;
+}
+
+.grey /* Classe des étoiles grises */
+{
+	color: #d9d9d9;
+}
+
+#afficher_plus
+{
+	margin: 0px 0px 10px 30px;
+}
+
+#populaire /* Taille et positionnement de la partie populaire */
+{
+	width: 30%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+#content_titre_populaire
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+#titre_populaire
+{
+	margin-bottom: 5px;
+	padding-left: 30px;
+}
+
+#graphique
+{
+	padding-right: 30px;
+	align-self: center;
+}
+
+.hebergement2 /* Classe des encarts d'hôtels */
+{
+	width: 90%;
+	height: 118px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin: 0px 15px 45px 15px;
+	padding: 5px 5px 0px 5px;
+	box-shadow: 1px 1px 8px black;
+}
+
+.hebergement2 img /* Classe du positionnement des images dans les encarts */
+{
+	width: 45%;
+	max-height: 113px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	float: left;
+	margin-right: 10px;
+}
+
+.hebergement2 h3, .hebergement2 p
+{
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.hebergement2 p
+{
+	font-size: 12px;
+}
+
+.text /* Positionnement du texte dans les encarts */
+{
+	display: flex;
+	flex-direction: column;
+}
+
+/* Section activités */
+#titre_activites
+{
+	margin-left: 30px;
+}
+
+#activites
+{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.grande /* Classe des grands encarts d'activité */
+{
+	width: 22%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 8px black;
+}
+
+.grande img /* Positionnement des images dans les encarts */
+{
+	width: 100%;
+	height: 100%;
+	max-height: 484px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.petite /* Classe des petites images dans les encarts */
+{
+	width: 100%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 8px black;
+}
+
+.petite img
+
+{
+	width: 100%;
+	max-height: 180px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.grande h3, .petite h3
+
+{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.grande:hover, .petite:hover
+{
+	cursor: pointer;
+	color: #0065fc;
+}
+
+.colonne /* Positionnement de l'ensemble de deux petits encarts par rapport aux grands encarts */
+{
+	width: 22%;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #f2f2f2;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
