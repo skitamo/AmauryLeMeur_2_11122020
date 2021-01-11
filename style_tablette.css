@@ -1,0 +1,160 @@
+#bloc_page /* Taille auto */
+{
+	width: auto;
+}
+
+p
+{
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+#info
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+}
+
+#disponibilite
+{
+	margin-left: 15px;
+}
+
+#second
+{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+
+.hebergement1 /* Classe des encarts d'hôtels */
+{
+	width: 25%;
+	height: 195px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	border-width: 5px;
+	border-color: #ffffff;
+	margin: 0px 25px 25px 25px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.hebergement1 img /* Positionnement des images dans les encarts */
+{
+	width: 95%;
+	max-height: 100px;
+	object-fit: cover;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin: 5px 5px 0px 5px;
+}
+
+.hebergement1 h3, .hebergement1 p
+{
+	font-size: 11px;
+	padding-left: 5px;
+}
+
+.hebergement1 p
+{
+	font-size: 10px;
+}
+
+#titre_populaire
+{
+	margin-bottom: 5px;
+	padding-left: 25px;
+}
+
+#graphique
+{
+	padding-right: 25px;
+	align-self: center;
+}
+
+.hebergement2 /* Classe des encarts d'hôtels */
+{
+	width: 90%;
+	height: 113px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	border-width: 5px;
+	margin: 0px 10px 40px 10px;
+	padding: 3px 3px 0px 3px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.hebergement2 img /* Classe du positionnement des images dans les encarts */
+{
+	width: 45%;
+	max-height: 108px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	float: left;
+	margin-right: 5px;
+}
+
+.hebergement2 h3, .hebergement2 p
+{
+	font-size: 11px;
+	padding-left: 3px;
+}
+
+.hebergement2 p
+{
+	font-size: 10px;
+}
+
+#activites
+{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.grande img
+{
+	width: 100%;
+	height: 100%;
+	max-height: 460px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.petite img
+{
+	width: 100%;
+	max-height: 175px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.grande h3, .petite h3
+{
+	margin-left: 5px;
+	font-size: 11px;
+}
+
+.colonne /* Positionnement de l'ensemble de deux petits encarts par rapport aux grands encarts */
+{
+	width: 22%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #f2f2f2;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
