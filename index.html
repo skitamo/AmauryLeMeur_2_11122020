@@ -2,17 +2,18 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<!-- CSS pour les mobiles -->
-		<link rel="stylesheet" type="text/css" href="style_mobile.css" media="all and (max-width: 600px)">
+		<link rel="stylesheet" type="text/css" href="style_mobile.css" >
 		<!-- CSS pour les tablettes -->
-		<link rel="stylesheet" type="text/css" href="style_tablette.css" media="all and (max-width: 1024px) and (min-width: 601px)">
+		<link rel="stylesheet" type="text/css"  media="all and (min-width: 601px) and (max-width: 1024px)" href="style_tablette.css">
 		<!-- Icônes -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<!-- Polices -->
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/eef62d4182.js" crossorigin="anonymous"></script>
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		
 		<title>Projet 2 Reservia</title>
 	</head>
 
@@ -30,25 +31,8 @@
 						<ul>
 							<li><a href="#hebergement">Hébergement</a></li>
 							<li><a href="#activites">Activités</a></li>
-							<li><a href="#"><span>S'inscrire</span></a></li>
+							<li id="inscrire"><a href="#"><span>S'inscrire</span></a></li>
 						</ul>
-					</div>
-					
-					<div id="nav_mobile"> <!-- Menu pour mobile -->
-						
-						<div id="inscrire">
-						<p>S'inscrire</p>
-						</div>
-						
-						<div id="menu">
-							<div id="menu_hebergement">
-							<p><a href="#hebergement">Hébergement</a></p>
-							</div>
-							<div id="menu_activite">
-							<p><a href="#activites">Activité</a></p>
-							</div>
-						</div>
-					
 					</div>
 
 				</nav>
@@ -85,7 +69,7 @@
 						</p>
 					</div>
 
-					<div id="economique" class="content_filtre">
+					<div class="content_filtre">
 						<div>
 							<i class="fas fa-money-bill-wave blue positioning1"></i>
 						</div>
@@ -97,7 +81,7 @@
 						</div>
 					</div>
 
-					<div id="familial" class="content_filtre">
+					<div class="content_filtre">
 
 						<div>
 							<i class="fas fa-child blue positioning2"></i>
@@ -111,7 +95,7 @@
 
 					</div>
 
-					<div id="romantique" class="content_filtre">
+					<div class="content_filtre">
 
 						<div>
 							<i class="fas fa-heart blue positioning2"></i>
@@ -125,7 +109,7 @@
 
 					</div>
 
-					<div id="animaux" class="content_filtre">
+					<div class="content_filtre">
 
 						<div>
 							<i class="fas fa-dog blue positioning1"></i>

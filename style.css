@@ -51,11 +51,6 @@ span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscri
 	color: #0065fc;
 }
 
-#nav_mobile
-{
-	display: none;
-}
-
 /* Première section */
 #titre_principal h1
 {
