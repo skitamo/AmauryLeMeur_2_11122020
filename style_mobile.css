@@ -46,7 +46,8 @@
 	#nav a:hover
 	{
 		color: #5095fd;
-		border-top: 3px solid #0065fc;
+		border-bottom: 3px solid #0065fc;
+		border-top: 0px;
 	}
 	
 	span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscrire" dans le menu */
@@ -94,10 +95,10 @@
 
 	#content_filtre /* Repositionnement des filtres */
 	{
-		width: 35%;
+		width: 100%;
 		flex-direction: column;
 		flex-wrap: wrap;
-		max-height: 140px;
+		max-height: 168px;
 		margin-left: 10px;
 		margin-top: 40px;
 	}
@@ -105,6 +106,7 @@
 	.content_filtre
 	{
 		display: flex;
+		width: 42%;
 		border-radius: 20px 20px 20px 20px;
 		border-color: #d9d9d9;
 		border-style: solid;
@@ -119,18 +121,22 @@
 		color: yellow;
 	}
 
+	.circle /* Cercle autour des icônes de filtre */
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #deebff;
+}
+
 	.positioning1
 	{
-		padding: 10px 7px 10px 7px;
-		border-radius: 20px 20px 20px 20px;
-		background-color: #deebff;
+		padding: 13px 13px 13px 10px;
 	}
 
 	.positioning2
 	{
-		padding: 10px 10px 10px 10px;
-		border-radius: 20px 20px 20px 20px;
-		background-color: #deebff;
+		padding: 12px 0px 0px 13px;
 	}
 
 	.filtres

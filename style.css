@@ -131,18 +131,22 @@ span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscri
 	color: yellow;
 }
 
-.positioning1 /* Encart des icônes étant plus larges que hautes */
+.circle /* Cercle autour des icônes de filtre */
 {
-	padding: 15px 12px 15px 12px;
-	border-radius: 20px 20px 20px 20px;
+	width: 45px;
+	height: 45px;
+	border-radius: 22.5px;
 	background-color: #deebff;
 }
 
-.positioning2 /* Encart des îcones ayant une largeur et une hauteur égale */
+.positioning1 /* Centrage dans le cercle des icônes étant plus larges que hautes */
+{
+	padding: 15px 12px 15px 12px;
+}
+
+.positioning2 /* Centrage dans le cercle des îcones ayant une largeur et une hauteur égale */
 {
 	padding: 15px 15px 15px 15px;
-	border-radius: 20px 20px 20px 20px;
-	background-color: #deebff;
 }
 
 .filtres /* Classe positionnant les titres des filtres */
