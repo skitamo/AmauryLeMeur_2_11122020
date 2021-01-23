@@ -99,6 +99,11 @@ span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscri
 	height: 36px;
 }
 
+#submit_mobile
+{
+	display: none;
+}
+
 #content_filtre
 {
 	display: flex;
@@ -175,7 +180,7 @@ span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscri
 	margin-left: 20px;
 }
 
-/* Section Hébergement et Les plus polaires */
+/* Section Hébergement et Les plus populaires */
 #second
 {
 	margin-top: 50px;

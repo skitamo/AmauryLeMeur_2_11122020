@@ -10,7 +10,7 @@
 	{
 		position: absolute;
 		top: 25px;
-		left: 247px;
+		left: 200px;
 	}
 
 	#inscrire p
@@ -76,13 +76,29 @@
 		margin: auto;
 	}
 
+	#formulaire
+	{
+		display: flex;
+	}
+
 	#envoyer
 	{
+		display: none;
+	}
+
+	#submit_mobile
+	{
+		display: block;
 		background-color: #0065fc;
-		color: #ffffff;
-		border-style: none;
-		border-radius : 0px 7px 7px 0px;
+		border-radius: 7px;
 		height: 36px;
+		width: 36px;
+	}
+
+	.fa-search
+	{
+		color: #ffffff;
+		padding : 10px 0px 0px 10px;
 	}
 
 	#filtres
@@ -122,12 +138,12 @@
 	}
 
 	.circle /* Cercle autour des icônes de filtre */
-{
+	{
 	width: 40px;
 	height: 40px;
 	border-radius: 20px;
 	background-color: #deebff;
-}
+	}
 
 	.positioning1
 	{
