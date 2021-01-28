@@ -32,7 +32,7 @@ nav li
 	margin-right: 55px;
 }
 
-#nav a
+nav a
 {
 	font-size: 12px;
 	color: #000000;
@@ -40,13 +40,13 @@ nav li
 	text-decoration: none;
 }
 
-#nav a:hover
+nav a:hover
 {
 	color: #5095fd;
 	border-top: 3px solid #0065fc;
 }
 
-span /* Ici la balise span a été utilisé pour pouvoir personnalisé "S'inscrire" dans le menu */
+#inscrire
 {
 	font-weight: bold;
 	color: #0065fc;
@@ -297,7 +297,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	align-self: center;
 }
 
-.hebergement2 /* Classe des encarts d'hôtels */
+.hebergement2 /* Class des encarts d'hôtels */
 {
 	width: 90%;
 	height: 118px;
@@ -308,7 +308,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	box-shadow: 1px 1px 8px black;
 }
 
-.hebergement2 img /* Classe du positionnement des images dans les encarts */
+.hebergement2 img /* Class du positionnement des images dans les encarts */
 {
 	width: 45%;
 	max-height: 113px;
