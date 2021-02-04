@@ -246,7 +246,7 @@ a:hover
 	border-width: 5px;
 	border-color: #ffffff;
 	margin: 0px 30px 30px 30px;
-	box-shadow: 1px 1px 8px rgb(85, 85, 85);
+	box-shadow: 1px 1px 8px #e3e3e3;
 }
 
 .hebergement1 img /* Positionnement des images dans les encarts */
@@ -320,7 +320,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	border-radius: 10px;
 	margin: 0px 15px 45px 15px;
 	padding: 5px 5px 0px 5px;
-	box-shadow: 1px 1px 8px rgb(85, 85, 85);
+	box-shadow: 1px 1px 8px #e3e3e3;
 }
 
 .hebergement2 img /* Class du positionnement des images dans les encarts */
@@ -376,7 +376,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 {
 	width: 22%;
 	border-radius: 10px;
-	box-shadow: 1px 1px 8px black;
+	box-shadow: 1px 1px 8px #dfe5e8;
 }
 
 .grande img /* Positionnement des images dans les encarts */
@@ -393,7 +393,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 {
 	width: 100%;
 	border-radius: 10px 10px 10px 10px;
-	box-shadow: 1px 1px 8px rgb(85, 85, 85);
+	box-shadow: 1px 1px 8px #dfe5e8;
 }
 
 .petite img

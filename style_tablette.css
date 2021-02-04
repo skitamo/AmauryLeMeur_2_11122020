@@ -47,7 +47,6 @@ p
 	border-radius: 10px;
 	border-width: 5px;
 	border-color: #ffffff;
-	box-shadow: 1px 1px 5px rgb(85, 85, 85);
 }
 
 .hebergement1 img /* Positionnement des images dans les encarts */
@@ -96,7 +95,6 @@ p
 	border-width: 5px;
 	margin: 0px 10px 40px 10px;
 	padding: 3px 3px 0px 3px;
-	box-shadow: 1px 1px 5px rgb(85, 85, 85);
 }
 
 .hebergement2 img /* Classe du positionnement des images dans les encarts */

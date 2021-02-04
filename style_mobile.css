@@ -225,7 +225,7 @@
 		border-color: #ffffff;
 		margin: 0px 10px 40px 10px;
 		padding: 3px 3px 0px 3px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 1px 1px 5px #e3e3e3;
 	}
 
 	.hebergement2 img
@@ -275,7 +275,7 @@
 		border-width: 5px;
 		border-color: #ffffff;
 		margin: 0px 20px 20px 20px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 1px 1px 5px #efefef;
 	}
 
 	.hebergement1 img
@@ -320,9 +320,9 @@
 
 	.grande
 	{
-		width: 90%;
+		width: 100%;
 		border-radius: 10px;
-		box-shadow: 1px 1px 8px black;
+		box-shadow: 1px 1px 8px #efefef;
 	}
 
 	.grande img
@@ -339,7 +339,7 @@
 	{
 		width: 100%;
 		border-radius: 10px 10px 10px 10px;
-		box-shadow: 1px 1px 8px black;
+		box-shadow: 1px 1px 8px #efefef;
 	}
 
 	.petite img
