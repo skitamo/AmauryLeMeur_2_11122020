@@ -9,6 +9,11 @@ p
 	margin-bottom: 10px;
 }
 
+#content_filtre{
+	width: auto;
+	flex-wrap: wrap;
+}
+
 #info
 {
 	display: flex;
@@ -29,23 +34,26 @@ p
 	margin-bottom: 40px;
 }
 
+#hebergement{
+	padding: auto;
+	justify-content: space-around;
+}
 
 .hebergement1 /* Classe des encarts d'hôtels */
 {
 	width: 25%;
-	height: 195px;
+	height: 180px;
 	background-color: #ffffff;
 	border-radius: 10px;
 	border-width: 5px;
 	border-color: #ffffff;
-	margin: 0px 25px 25px 25px;
-	box-shadow: 1px 1px 5px black;
+	box-shadow: 1px 1px 5px rgb(85, 85, 85);
 }
 
 .hebergement1 img /* Positionnement des images dans les encarts */
 {
 	width: 95%;
-	max-height: 100px;
+	max-height: 80px;
 	object-fit: cover;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
@@ -61,6 +69,10 @@ p
 .hebergement1 p
 {
 	font-size: 10px;
+}
+
+#afficher_plus{
+	flex-wrap: wrap;
 }
 
 #titre_populaire
@@ -84,7 +96,7 @@ p
 	border-width: 5px;
 	margin: 0px 10px 40px 10px;
 	padding: 3px 3px 0px 3px;
-	box-shadow: 1px 1px 5px black;
+	box-shadow: 1px 1px 5px rgb(85, 85, 85);
 }
 
 .hebergement2 img /* Classe du positionnement des images dans les encarts */

@@ -1,4 +1,9 @@
 /* Eléments principaux de la page */
+
+* {
+	box-sizing: border-box;
+}
+
 #bloc_page
 {
 	max-width: 1400px;
@@ -20,6 +25,11 @@ header
 }
 
 /* Menu */
+
+nav {
+	width: 30%;
+}
+
 nav ul
 {
 	list-style-type: none;
@@ -111,6 +121,7 @@ nav a:hover
 	font-weight: bold;
 	font-size: 14px;
 	margin-top: 20px;
+	width : 60%;
 }
 
 #filtres /* Positionnement du mot filtre */
@@ -121,6 +132,7 @@ nav a:hover
 .content_filtre /* Classe pour tous les blocks de filtres */
 {
 	height: 46px;
+	width: auto;
 	border : solid 2px #d9d9d9;
 	border-left : none;
 	border-radius: 25px;
@@ -189,13 +201,19 @@ nav a:hover
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#afficher_plus--mobile{
+	display: none;
 }
 
 #hebergement /* Taille et positionnement de la partie hébergement */
 {
 	width: 60%;
 	background-color: #f2f2f2;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -228,7 +246,7 @@ a:hover
 	border-width: 5px;
 	border-color: #ffffff;
 	margin: 0px 30px 30px 30px;
-	box-shadow: 1px 1px 8px black;
+	box-shadow: 1px 1px 8px rgb(85, 85, 85);
 }
 
 .hebergement1 img /* Positionnement des images dans les encarts */
@@ -268,14 +286,9 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	color: #d9d9d9;
 }
 
-#afficher_plus
-{
-	margin: 0px 0px 10px 30px;
-}
-
 #populaire /* Taille et positionnement de la partie populaire */
 {
-	width: 30%;
+	width: 29%;
 	background-color: #f2f2f2;
 	border-radius: 10px;
 }
@@ -307,7 +320,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	border-radius: 10px;
 	margin: 0px 15px 45px 15px;
 	padding: 5px 5px 0px 5px;
-	box-shadow: 1px 1px 8px black;
+	box-shadow: 1px 1px 8px rgb(85, 85, 85);
 }
 
 .hebergement2 img /* Class du positionnement des images dans les encarts */
@@ -336,6 +349,14 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 {
 	display: flex;
 	flex-direction: column;
+}
+
+#afficher_plus--desktop
+{
+	width : 60%;
+	background-color: #f2f2f2;
+	border-radius: 0px 0px 10px 10px;
+	padding-left: 30px;
 }
 
 /* Section activités */
@@ -372,7 +393,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 {
 	width: 100%;
 	border-radius: 10px 10px 10px 10px;
-	box-shadow: 1px 1px 8px black;
+	box-shadow: 1px 1px 8px rgb(85, 85, 85);
 }
 
 .petite img
