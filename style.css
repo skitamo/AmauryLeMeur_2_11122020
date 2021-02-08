@@ -9,11 +9,28 @@
 	width: 100%;
 }
 
+h1
+{
+	font-size: 23px;
+}
+
+h2
+{
+	font-size: 18px;
+}
+
+h3
+{
+	font-size: 16px;
+}
+
 p
 {
-	font-size: 12px;
+	font-size: 16px;
 	margin-bottom: 15px;
 }
+
+
 
 a:link, a:visited {
 	text-decoration: none;
@@ -47,7 +64,6 @@ nav li
 
 nav a
 {
-	font-size: 12px;
 	color: #000000;
 	padding-bottom: 3px;
 	text-decoration: none;
@@ -71,10 +87,6 @@ nav a:hover
 }
 
 /* Première section */
-#titre_principal h1
-{
-	font-size: 16px;
-}
 
 #content_recherche
 {
@@ -84,14 +96,15 @@ nav a:hover
 
 #icone_position_map
 {
+	width: 40px;
 	background-color: #f2f2f2;
-	border-top-left-radius: 7px;
-	border-bottom-left-radius: 7px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 .fa-map-marker-alt
 {
-	padding: 10px 10px 10px 10px; /* La propriété padding est ici utilisée pour centrer l'icône map dans la zone grise */
+	padding: 12px 0px 0px 14px; /* La propriété padding est ici utilisée pour centrer l'icône map dans la zone grise */
 }
 
 #ville /* Personnalisation de l'input text */
@@ -99,13 +112,14 @@ nav a:hover
 	height: 36px;
 	font-weight: bold;
 	padding-left: 10px;
-	width: 140px;
+	width: 165px;
 	border-top: 1px;
 	border-color: #f2f2f2;
 	border-top-style: solid;
 	border-left-style: none;
 	border-bottom-style: none;
 	border-right-style: none;
+	font-size: 16px;
 }
 
 #envoyer /* Personnalisation de l'input submit */
@@ -113,8 +127,9 @@ nav a:hover
 	background-color: #0065fc;
 	color: #ffffff;
 	border-style: none;
-	border-radius: 0px 7px 7px 0px;
-	height: 36px;
+	border-radius: 0px 10px 10px 0px;
+	height: 40px;
+	font-size: 16px;
 }
 
 #submit_mobile
@@ -127,7 +142,6 @@ nav a:hover
 	display: flex;
 	flex-direction: row;
 	font-weight: bold;
-	font-size: 14px;
 	margin-top: 20px;
 	width : 60%;
 }
@@ -140,7 +154,7 @@ nav a:hover
 .content_filtre /* Classe pour tous les blocks de filtres */
 {
 	height: 46px;
-	width: auto;
+	width: 208px;
 	border : solid 2px #d9d9d9;
 	border-left : none;
 	border-radius: 25px;
@@ -150,6 +164,7 @@ nav a:hover
 	flex-direction: row;
 	align-items: center;
 	display: flex;
+	white-space: nowrap;
 }
 
 .content_filtre:hover
@@ -195,11 +210,13 @@ nav a:hover
 	padding: 8px 10px 8px 10px;
 	border-radius: 25px 25px 25px 25px;
 	border: 1px solid #d9d9d9;
+	position: absolute;
+	top: 308px;
 }
 
 #disponibilite /* Positionnement du texte à côté de l'icône */
 {
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 /* Section Hébergement et Les plus populaires */
@@ -219,7 +236,7 @@ nav a:hover
 
 #hebergement /* Taille et positionnement de la partie hébergement */
 {
-	width: 60%;
+	width: 63%;
 	background-color: #f2f2f2;
 	border-radius: 10px 10px 0px 0px;
 	display: flex;
@@ -229,7 +246,7 @@ nav a:hover
 #titre_hebergement /* Positionnement du titre afin que les encarts soient passées en-dessous */
 {
 	width: 100%;
-	margin-bottom: 5px;
+	margin-bottom: -35px;
 	margin-left: 30px;
 }
 
@@ -241,35 +258,42 @@ a:hover
 
 .hebergement1 /* Classe des encarts d'hôtels */
 {
-	width: 25%;
+	width: 27%;
 	height: 205px;
 	background-color: #ffffff;
 	border-radius: 10px;
 	border-width: 5px;
 	border-color: #ffffff;
-	margin: 0px 30px 30px 30px;
+	margin: 0px 5px 5px 22px;
 	box-shadow: 1px 1px 8px #e3e3e3;
 }
 
 .hebergement1 img /* Positionnement des images dans les encarts */
 {
 	width: 95%;
-	max-height: 110px;
+	max-height: 116px;
 	object-fit: cover;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 	margin: 5px 5px 0px 5px;
 }
 
-.hebergement1 h3, .hebergement1 p
+.hebergement1 h3
 {
-	font-size: 14px;
-	padding-left: 5px;
+	margin: 0px 0px 0px 12px;
 }
 
 .hebergement1 p
 {
-	font-size: 12px;
+	margin: 10px 0px 0px 12px;
+}
+
+#afficher_plus--desktop
+{
+	width : 60.6%;
+	background-color: #f2f2f2;
+	border-radius: 0px 0px 10px 10px;
+	padding-left: 30px;
 }
 
 em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en gras */
@@ -290,7 +314,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 
 #populaire /* Taille et positionnement de la partie populaire */
 {
-	width: 29%;
+	width: 33%;
 	background-color: #f2f2f2;
 	border-radius: 10px;
 }
@@ -336,29 +360,21 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	margin-right: 10px;
 }
 
-.hebergement2 h3, .hebergement2 p
-{
-	font-size: 14px;
-	padding-left: 5px;
-}
-
-.hebergement2 p
-{
-	font-size: 12px;
-}
-
 .text /* Positionnement du texte dans les encarts */
 {
 	display: flex;
 	flex-direction: column;
+	margin-left: 196px;
 }
 
-#afficher_plus--desktop
+.hebergement2 h3
 {
-	width : 60%;
-	background-color: #f2f2f2;
-	border-radius: 0px 0px 10px 10px;
-	padding-left: 30px;
+	margin: 10px 0px 0px 196px;
+}
+
+.hebergement2 p
+{
+	margin: 5px 0px 14px 0px;
 }
 
 /* Section activités */
@@ -372,6 +388,11 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
+}
+
+#activites h3
+{
+	margin-left: 20px;
 }
 
 .grande /* Classe des grands encarts d'activité */
@@ -408,13 +429,6 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	border-top-right-radius: 10px;
 }
 
-.grande h3, .petite h3
-
-{
-	margin-left: 10px;
-	font-size: 14px;
-}
-
 .grande:hover, .petite:hover
 {
 	cursor: pointer;
@@ -437,4 +451,9 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 	margin-top: 50px;
 	display: flex;
 	justify-content: space-around;
+}
+
+#footer p
+{
+	line-height: 2;
 }
