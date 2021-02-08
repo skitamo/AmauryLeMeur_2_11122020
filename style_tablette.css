@@ -3,15 +3,21 @@
 	width: auto;
 }
 
-p
+nav
 {
-	font-size: 10px;
-	margin-bottom: 10px;
+	width: 50%;
 }
 
 #content_filtre{
-	width: auto;
-	flex-wrap: wrap;
+	position: relative;
+	padding-top: 30px;
+}
+
+#filtres_title
+{
+	margin-right: 0px;
+	position: absolute;
+	top: -10px;
 }
 
 #info
@@ -21,27 +27,31 @@ p
 	margin-top: 15px;
 }
 
-#disponibilite
+.fa-info
 {
-	margin-left: 15px;
+	top: 335px;
 }
 
 #second
 {
-	margin-top: 40px;
+	margin-top: 15px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 40px;
 }
 
 #hebergement{
-	padding: auto;
 	justify-content: space-around;
+}
+
+#titre_hebergement
+{
+	margin-bottom: 0px;
 }
 
 .hebergement1 /* Classe des encarts d'hôtels */
 {
-	width: 25%;
+	width: 44%;
 	height: 180px;
 	background-color: #ffffff;
 	border-radius: 10px;
@@ -59,19 +69,19 @@ p
 	margin: 5px 5px 0px 5px;
 }
 
-.hebergement1 h3, .hebergement1 p
+.hebergement1 h3
 {
-	font-size: 11px;
-	padding-left: 5px;
+	margin: 13px 0px 0px 12px;
+	font-size: 15px;
 }
 
-.hebergement1 p
+.hebergement p
 {
-	font-size: 10px;
+	font-size: 15px;
 }
 
-#afficher_plus{
-	flex-wrap: wrap;
+#afficher_plus--desktop{
+	width: 59%;
 }
 
 #titre_populaire
@@ -99,7 +109,7 @@ p
 
 .hebergement2 img /* Classe du positionnement des images dans les encarts */
 {
-	width: 45%;
+	width: 38%;
 	max-height: 60px;
 	object-fit: cover;
 	border-top-left-radius: 10px;
@@ -108,15 +118,21 @@ p
 	margin-right: 5px;
 }
 
-.hebergement2 h3, .hebergement2 p
+.hebergement2 h3
 {
-	font-size: 11px;
-	padding-left: 3px;
+	margin: 10px 0px 20px 90px;
+	font-size: 15px;
+}
+
+.text
+{
+	margin-left: 5px;
 }
 
 .hebergement2 p
 {
-	font-size: 10px;
+	margin: 5px 0px -5px 0px;
+	font-size: 15px;
 }
 
 #activites
@@ -145,19 +161,19 @@ p
 	border-top-right-radius: 10px;
 }
 
-.grande h3, .petite h3
-{
-	margin-left: 5px;
-	font-size: 11px;
-}
-
 .colonne /* Positionnement de l'ensemble de deux petits encarts par rapport aux grands encarts */
 {
 	width: 22%;
-	height: 500px;
+	height: 520px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+#activites h3
+{
+	margin-left: 10px;
+	font-size: 15px;
 }
 
 #footer
