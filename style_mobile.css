@@ -5,10 +5,32 @@
 		width: 100%;
 	}
 
+	h1
+{
+	font-size: 23px;
+}
+
+h2
+{
+	font-size: 18px;
+}
+
+h3
+{
+	font-size: 16px;
+}
+
+p
+{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
 	/* Header */
 	header
 	{
 		flex-direction: column;
+		width: 100%;
 	}
 
 	#inscrire /* Positionnement de "S'inscrire" */
@@ -16,7 +38,6 @@
 		position: absolute;
 		top: 25px;
 		right: 15px;
-		font-size: 12px;
 		font-weight: bold;
 		color: #0065fc;
 		width: auto;
@@ -44,7 +65,6 @@
 	
 	nav a
 	{
-		font-size: 12px;
 		color: #000000;
 		padding-bottom: 3px;
 		text-decoration: none;
@@ -61,7 +81,6 @@
 
 	#titre_principal h1
 	{
-		font-size: 23px;
 		text-align: justify;
 		margin: auto;
 	}
@@ -145,6 +164,7 @@
 		border-style: solid;
 		border-left-style: none;
 		margin-bottom: 10px;
+		width: auto;
 	}
 
 	.content_filtre:hover
@@ -179,7 +199,6 @@
 		padding-top : 14px;
 		height: 30px;
 		align-self: center;
-		font-size: 0.9em;
 	}
 
 	#info
@@ -194,7 +213,7 @@
 		border-radius: 25px 25px 25px 25px;
 		border: 1px solid #d9d9d9;
 		position: absolute;
-		top: 485px;
+		top: 498px;
 	}
 
 	#disponibilite
@@ -230,7 +249,6 @@
 
 	#titre_populaire
 	{
-		font-size: 9px;
 		margin-bottom: 5px;
 		padding-left: 25px;
 	}
@@ -264,17 +282,6 @@
 		margin-right: 5px;
 	}
 
-	.hebergement2 h3, .hebergement2 p
-	{
-		font-size: 10px;
-		padding-left: 3px;
-	}
-
-	.hebergement2 p
-	{
-		font-size: 10px;
-	}
-
 	#hebergement
 	{
 		width: 100%;
@@ -286,14 +293,13 @@
 
 	#titre_hebergement
 	{
-		font-size: 10px;
-		margin-bottom: 4px;
+		margin-bottom: 0px;
 	}
 
 	.hebergement1
 	{
 		width: 100%;
-		height: 165px;
+		height: 195px;
 		background-color: #ffffff;
 		border-radius: 10px;
 		border-width: 5px;
@@ -313,15 +319,9 @@
 		margin: 5px 5px 0px 5px;
 	}
 
-	.hebergement1 h3, .hebergement1 p
+	.hebergement1 h3
 	{
-		font-size: 9px;
-		padding-left: 5px;
-	}
-
-	.hebergement1 p
-	{
-		font-size: 8px;
+		margin: 10px 0px 0px 12px;
 	}
 
 	#afficher_plus--desktop{
@@ -376,13 +376,6 @@
 		border-top-right-radius: 10px;
 	}
 
-	.grande h3, .petite h3
-
-	{
-		margin-left: 10px;
-		font-size: 10px;
-	}
-
 	.grande:hover, .petite:hover
 	{
 		cursor: pointer;
@@ -406,10 +399,5 @@
 		padding-left: 10px;
 		display: flex;
 		flex-direction: column;
-	}
-
-	#footer h2
-	{
-		font-size: 11px;
 	}
 }
