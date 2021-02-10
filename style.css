@@ -245,6 +245,7 @@ nav a:hover
 
 #titre_hebergement /* Positionnement du titre afin que les encarts soient passées en-dessous */
 {
+	width: 80%;
 	margin-bottom: -35px;
 	margin-left: 30px;
 }
