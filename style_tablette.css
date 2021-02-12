@@ -72,16 +72,16 @@ nav
 .hebergement1 h3
 {
 	margin: 13px 0px 0px 12px;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 .hebergement p
 {
-	font-size: 15px;
+	font-size: 14px;
 }
 
 #afficher_plus--desktop{
-	width: 59%;
+	width: 95%;
 }
 
 #titre_populaire
@@ -121,7 +121,8 @@ nav
 .hebergement2 h3
 {
 	margin: 10px 0px 20px 90px;
-	font-size: 15px;
+	font-size: 14px;
+	word-break: break-all;
 }
 
 .text
@@ -132,7 +133,7 @@ nav
 .hebergement2 p
 {
 	margin: 5px 0px -5px 0px;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 #activites

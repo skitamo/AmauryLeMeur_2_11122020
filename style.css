@@ -238,7 +238,7 @@ nav a:hover
 {
 	width: 63%;
 	background-color: #f2f2f2;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 10px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -246,7 +246,6 @@ nav a:hover
 #titre_hebergement /* Positionnement du titre afin que les encarts soient passées en-dessous */
 {
 	width: 80%;
-	margin-bottom: -35px;
 	margin-left: 30px;
 }
 
@@ -341,7 +340,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 .hebergement2 /* Class des encarts d'hôtels */
 {
 	width: 90%;
-	height: 118px;
+	height: 22%;
 	background-color: #ffffff;
 	border-radius: 10px;
 	margin: 0px 15px 45px 15px;
@@ -352,7 +351,7 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 .hebergement2 img /* Class du positionnement des images dans les encarts */
 {
 	width: 45%;
-	max-height: 113px;
+	max-height: 100px;
 	object-fit: cover;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -364,12 +363,11 @@ em /* La propriété a été utilisé ici afin de ciblé les mots à mettre en g
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 196px;
 }
 
 .hebergement2 h3
 {
-	margin: 10px 0px 0px 196px;
+	margin-top: 10px;
 }
 
 .hebergement2 p
